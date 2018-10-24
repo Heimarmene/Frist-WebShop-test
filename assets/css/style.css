@@ -55,7 +55,7 @@ a{
 }
 
 .header .searchbar,.cart{
-    margin: 18px 0px;
+    margin: 18px 0;
 }
 .searchbar{
     border: 2px solid;
@@ -65,7 +65,7 @@ a{
     float: left;
     width: 80%;
     height: 22px;
-    border: 0px;
+    border: 0;
     outline: 0;
 }
 .searchbar button{
@@ -190,12 +190,15 @@ a{
     max-height: 200px;
     color: #a6afb1;
 }
+.ad::-webkit-scrollbar{
+	width: 0;
+}
 .product,.itemheader{
     display: block;
 }
 .itemheader{
-    padding: 5px 0px;
-    margin: 10px 0px;
+    padding: 5px 0;
+    margin: 10px 0;
     font-size: 32px;
     background-color: #ffbc4e;
     -webkit-box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.5);
